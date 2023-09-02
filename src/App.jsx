@@ -1,6 +1,7 @@
 import Counter from './components/Counter';
 import ShowHide from './components/ShowHide';
 import ArrayMapping from './components/ArrayMapping';
+import Calculator from './components/Calculator';
 
 function App() {
 	return (
@@ -8,7 +9,8 @@ function App() {
 			<div className="">
 				{/* <Counter /> */}
 				{/* <ShowHide /> */}
-				<ArrayMapping />
+				{/* <ArrayMapping /> */}
+				<Calculator />
 			</div>
 		</div>
 	);
