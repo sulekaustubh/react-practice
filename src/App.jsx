@@ -2,6 +2,7 @@ import Counter from './components/Counter';
 import ShowHide from './components/ShowHide';
 import ArrayMapping from './components/ArrayMapping';
 import Calculator from './components/Calculator';
+import DisableButton from './components/DisableButton'
 
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 				{/* <Counter /> */}
 				{/* <ShowHide /> */}
 				{/* <ArrayMapping /> */}
-				<Calculator />
+				{/* <Calculator /> */}
+				<DisableButton />
 			</div>
 		</div>
 	);
