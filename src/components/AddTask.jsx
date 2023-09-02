@@ -21,10 +21,6 @@ function AddTask() {
 				/>
 				<button
 					className="border-2"
-					// onClick={() => (
-					//     setArr([...arr, task]);
-					//     setTask('');
-					// )}
 					onClick={handleClick}
 				>
 					ADD TASK
