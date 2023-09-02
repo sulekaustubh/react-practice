@@ -3,7 +3,7 @@ import ShowHide from './components/ShowHide';
 import ArrayMapping from './components/ArrayMapping';
 import Calculator from './components/Calculator';
 import DisableButton from './components/DisableButton'
-import AddToDo from './components/AddToDo'
+import AddTask from './components/AddTask'
 
 function App() {
 	return (
@@ -14,7 +14,7 @@ function App() {
 				{/* <ArrayMapping /> */}
 				{/* <Calculator /> */}
 				{/* <DisableButton /> */}
-				<AddToDo />
+				<AddTask />
 			</div>
 		</div>
 	);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AddToDo() {
+function AddTask() {
 	const [task, setTask] = useState('');
 	const [arr, setArr] = useState([]);
 
@@ -39,4 +39,4 @@ function AddToDo() {
 	);
 }
 
-export default AddToDo;
+export default AddTask;
