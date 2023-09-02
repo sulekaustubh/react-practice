@@ -3,6 +3,7 @@ import ShowHide from './components/ShowHide';
 import ArrayMapping from './components/ArrayMapping';
 import Calculator from './components/Calculator';
 import DisableButton from './components/DisableButton'
+import AddToDo from './components/AddToDo'
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 				{/* <ShowHide /> */}
 				{/* <ArrayMapping /> */}
 				{/* <Calculator /> */}
-				<DisableButton />
+				{/* <DisableButton /> */}
+				<AddToDo />
 			</div>
 		</div>
 	);
