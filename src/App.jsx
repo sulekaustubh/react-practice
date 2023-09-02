@@ -12,9 +12,9 @@ function App() {
 				{/* <Counter /> */}
 				{/* <ShowHide /> */}
 				{/* <ArrayMapping /> */}
-				{/* <Calculator /> */}
+				<Calculator />
 				{/* <DisableButton /> */}
-				<AddTask />
+				{/* <AddTask /> */}
 			</div>
 		</div>
 	);

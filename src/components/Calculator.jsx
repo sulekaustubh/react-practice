@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Calculator() {
 	const [num1, setNum1] = useState('');
 	const [num2, setNum2] = useState('');
 	const [result, setResult] = useState('0');
+
+	// this code block will only be executed when the value of num1 or num2 changes
+	useEffect(() => {
+		console.log('I am useEffect');
+	}, [num1, num2]);
 
 	return (
 		<>
