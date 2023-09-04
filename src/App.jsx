@@ -4,6 +4,7 @@ import ArrayMapping from './components/ArrayMapping';
 import Calculator from './components/Calculator';
 import DisableButton from './components/DisableButton'
 import AddTask from './components/AddTask'
+import FetchAPI from './components/FetchAPI'
 
 function App() {
 	return (
@@ -12,9 +13,10 @@ function App() {
 				{/* <Counter /> */}
 				{/* <ShowHide /> */}
 				{/* <ArrayMapping /> */}
-				<Calculator />
+				{/* <Calculator /> */}
 				{/* <DisableButton /> */}
 				{/* <AddTask /> */}
+				<FetchAPI />
 			</div>
 		</div>
 	);
