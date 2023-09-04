@@ -5,6 +5,7 @@ import Calculator from './components/Calculator';
 import DisableButton from './components/DisableButton'
 import AddTask from './components/AddTask'
 import FetchAPI from './components/FetchAPI'
+import { Form } from './components/Form'
 
 function App() {
 	return (
@@ -16,7 +17,8 @@ function App() {
 				{/* <Calculator /> */}
 				{/* <DisableButton /> */}
 				{/* <AddTask /> */}
-				<FetchAPI />
+				{/* <FetchAPI /> */}
+				<Form />
 			</div>
 		</div>
 	);
