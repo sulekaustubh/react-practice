@@ -6,6 +6,7 @@ import DisableButton from './components/DisableButton'
 import AddTask from './components/AddTask'
 import FetchAPI from './components/FetchAPI'
 import { Form } from './components/Form'
+import StopWatch from './components/StopWatch';
 
 function App() {
 	return (
@@ -18,7 +19,8 @@ function App() {
 				{/* <DisableButton /> */}
 				{/* <AddTask /> */}
 				{/* <FetchAPI /> */}
-				<Form />
+				{/* <Form /> */}
+				<StopWatch />
 			</div>
 		</div>
 	);
