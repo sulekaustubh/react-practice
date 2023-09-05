@@ -7,6 +7,7 @@ import AddTask from './components/AddTask'
 import FetchAPI from './components/FetchAPI'
 import { Form } from './components/Form'
 import StopWatch from './components/StopWatch';
+import Timer from './components/Timer';
 
 function App() {
 	return (
@@ -20,7 +21,8 @@ function App() {
 				{/* <AddTask /> */}
 				{/* <FetchAPI /> */}
 				{/* <Form /> */}
-				<StopWatch />
+				{/* <StopWatch /> */}
+				<Timer />
 			</div>
 		</div>
 	);
