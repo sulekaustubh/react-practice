@@ -24,15 +24,15 @@ function App() {
 				{/* <DisableButton /> */}
 				{/* <AddTask /> */}
 				{/* <FetchAPI /> */}
-				{/* <Form /> */}
+				<Form />
 				{/* <StopWatch /> */}
 				{/* <Timer /> */}
-				<div>
+				{/* <div>
 					<p>I got rendered immediately</p>
 					<Suspense fallback={<p>loading..</p>}>
 						<LazyLoading />
 					</Suspense>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
