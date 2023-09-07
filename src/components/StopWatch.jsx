@@ -17,7 +17,7 @@ function StopWatch() {
 			}, 1000);
 		}
 
-        // find out why exactly do we need this part
+		// cleanup the timer on component unmount
 		return () => clearInterval(time);
 	});
 

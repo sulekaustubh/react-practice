@@ -19,6 +19,7 @@ function Timer() {
 			}, 1000);
 		}
 
+		// cleanup the timer on component unmount
 		return () => clearInterval(time);
 	});
 

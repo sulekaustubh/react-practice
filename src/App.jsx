@@ -2,12 +2,16 @@ import Counter from './components/Counter';
 import ShowHide from './components/ShowHide';
 import ArrayMapping from './components/ArrayMapping';
 import Calculator from './components/Calculator';
-import DisableButton from './components/DisableButton'
-import AddTask from './components/AddTask'
-import FetchAPI from './components/FetchAPI'
-import { Form } from './components/Form'
+import DisableButton from './components/DisableButton';
+import AddTask from './components/AddTask';
+import FetchAPI from './components/FetchAPI';
+import { Form } from './components/Form';
 import StopWatch from './components/StopWatch';
 import Timer from './components/Timer';
+// import LazyLoading from './components/LazyLoading';
+import React, { lazy, Suspense } from 'react';
+
+const LazyLoading = React.lazy(() => import('./components/LazyLoading'));
 
 function App() {
 	return (
@@ -22,7 +26,13 @@ function App() {
 				{/* <FetchAPI /> */}
 				{/* <Form /> */}
 				{/* <StopWatch /> */}
-				<Timer />
+				{/* <Timer /> */}
+				<div>
+					<p>I got rendered immediately</p>
+					<Suspense fallback={<p>loading..</p>}>
+						<LazyLoading />
+					</Suspense>
+				</div>
 			</div>
 		</div>
 	);
